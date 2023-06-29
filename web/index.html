@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EEl test - Sum</title>
+    <title>EEl TEST-SUM</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <label>Enter First Number  
-        <textarea id = "int1"></textarea> <br>
-    <label>Enter Second Number  
-        <textarea id = "int2"></textarea> <br>
-    <label>Result  
-        <textarea id = "res"></textarea> <br>
-    <button type = "button" id = "add" onclick = "summation()">Sum</button>
+
+    <div class="container">
+        <label for="number">enter first number</label>
+        <input type="text" id="number1">
+        <label for="number">enter 2nd number</label>
+        <input type="text" id="number2">
+        <button id="btn" onclick="findSum()">sum</button>
+        <h2 class="result"></h2>
+    </div>
+
+    <!-- eel -->
+    <script type="text/javascript" src="eel.js"></script>
+    <!-- js -->
+	<script src="./script.js"></script>
+
 </body>
 </html>
